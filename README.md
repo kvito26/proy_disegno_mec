@@ -19,8 +19,32 @@ Este repositorio tiene como base (*fork*) el repositorio del fabricante del LiDA
 
 ## Instalación del Sistema Operativo para el Raspberry Pi V.3
 
-## Compilación del Programa para el Funcionamiento del Sensor Lidar.
+## Compilación del Programa SDK para el Funcionamiento del Sensor Lidar.
 Para este punto se clona y se compila el código para ambas computadoras mencionadas anteriormente.
+
+Antes de iniciar, se deben actualizar los repositorios y paquetes instalados en las computadoras, estos comandos sirven para ambos:
+
+´´´bash
+sudo apt-get update && sudo apt-get upgrade -y
+
+´´´
+
+Instalar los paquetes necesarios:
+
+´´´bash
+sudo apt-get install git
+
+´´´
+
+1. Clonar repositorio para ambas computadoras.
+
+´´´bash
+cd ~/
+git clone https://github.com/kvito26/proy_disegno_mec.git
+´´´
+
+
+
 
 
 ## Toma de datos sin visualización en tiempo real
