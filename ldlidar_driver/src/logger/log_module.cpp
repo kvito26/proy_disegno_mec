@@ -17,6 +17,7 @@
 **/
 #include "log_module.h"
 
+#include <pthread.h>
 #include <time.h>
 #include <string.h>
 
